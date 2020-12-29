@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3523707563447393066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3523707563447393064}
+  - component: {fileID: 3523707563447393065}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3523707563447393064
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523707563447393066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3523707563447393065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523707563447393066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9444ed3fd2cb96a4fbc4272935894b07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerJump
+    clip: {fileID: 8300000, guid: 7b68a9701fa5fe84588bd5ee64ea7f01, type: 3}
+    volume: 0.12
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    spatialBlend: 0
+    enabled: 1
+  - name: PlayerSpring
+    clip: {fileID: 8300000, guid: 0c08fed33495f014aae9dfc4e8322d0b, type: 3}
+    volume: 0.41
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    spatialBlend: 0
+    enabled: 1
+  - name: PlayerDeath
+    clip: {fileID: 8300000, guid: 3e907bac56cdadb40abc5aa0e38fd24f, type: 3}
+    volume: 0.7
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    spatialBlend: 0
+    enabled: 1
+  - name: ChargerSound
+    clip: {fileID: 8300000, guid: 9f7f6a52b79aca24c84df7f60f9d9d40, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    spatialBlend: 0
+    enabled: 1
+  - name: ChargeSound
+    clip: {fileID: 8300000, guid: 7cab5c0416074164e97a8b23eec80706, type: 3}
+    volume: 0.4
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    spatialBlend: 0
+    enabled: 1
+  - name: GameMusic
+    clip: {fileID: 8300000, guid: 0d9bf0e1ac31f8840b9ac1458a1265e6, type: 3}
+    volume: 0.45
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+    spatialBlend: 0
+    enabled: 1
+  - name: VictorySound
+    clip: {fileID: 8300000, guid: 7aaa22233eb9b544b87e9d9284f94b95, type: 3}
+    volume: 0.45
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+    spatialBlend: 0
+    enabled: 1
